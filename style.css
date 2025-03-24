@@ -1,0 +1,85 @@
+body{
+    height: 130vh;
+}
+
+*{
+    margin: 0;
+}
+
+.mainn{
+    position: fixed;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 98.5vw;
+    border-bottom: 2px solid rgb(161, 152, 152);
+    padding: 0 10px;
+    margin-top: 0;
+    background-color: lightblue;
+    z-index: 2;
+}
+.left{
+    display: flex;
+    gap: 30px;
+}
+#inputt{
+    height: 20px;
+    position: relative;
+    top: 0.75rem;
+}
+
+.texture{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.top{
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bottom{
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 5rem !important;
+}
+
+.paras,h1,img{
+    font-size:xx-large;
+    position: relative;
+    top: 70px;
+    left: 15rem;
+    margin-bottom: 30px;
+    width: 80vw;
+    z-index: -1;
+}
+
+.zoom { height: 200px;
+     overflow: hidden;
+      border-radius: 16px;
+}
+.zoom img 
+{   object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom:hover img{
+     transform: scale(1.5);
+}
